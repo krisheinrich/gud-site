@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/gud-site/static/css/main.36595e40.chunk.css",
+    "main.js": "/gud-site/static/js/main.3ceed40e.chunk.js",
+    "main.js.map": "/gud-site/static/js/main.3ceed40e.chunk.js.map",
+    "runtime-main.js": "/gud-site/static/js/runtime-main.d75ad474.js",
+    "runtime-main.js.map": "/gud-site/static/js/runtime-main.d75ad474.js.map",
+    "static/js/2.8c16bcb3.chunk.js": "/gud-site/static/js/2.8c16bcb3.chunk.js",
+    "static/js/2.8c16bcb3.chunk.js.map": "/gud-site/static/js/2.8c16bcb3.chunk.js.map",
+    "index.html": "/gud-site/index.html",
+    "precache-manifest.2d0cf0e9e8d8ed24d6ed31588d2d8f17.js": "/gud-site/precache-manifest.2d0cf0e9e8d8ed24d6ed31588d2d8f17.js",
+    "service-worker.js": "/gud-site/service-worker.js",
+    "static/css/main.36595e40.chunk.css.map": "/gud-site/static/css/main.36595e40.chunk.css.map",
+    "static/js/2.8c16bcb3.chunk.js.LICENSE.txt": "/gud-site/static/js/2.8c16bcb3.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/gud-site/static/media/hacker-resized.444181a7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d75ad474.js",
+    "static/js/2.8c16bcb3.chunk.js",
+    "static/css/main.36595e40.chunk.css",
+    "static/js/main.3ceed40e.chunk.js"
+  ]
+}
