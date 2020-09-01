@@ -47,6 +47,12 @@ ul, ol {
   list-style: none;
 }
 
+/* no underline on link text, normalize default link color */
+a {
+  color: blue;
+  text-decoration: none;
+}
+
 /* remove/improve UA button defaults, normalize across vendors */
 button, .button {
   border: 0;

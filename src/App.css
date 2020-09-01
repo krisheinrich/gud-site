@@ -13,10 +13,26 @@
   flex-direction: column;
 }
 
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fill {
+  flex: 1;
+  align-self: stretch;
+}
+
 .container {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+}
+
+.card {
+  background: white;
+  padding: 3rem;
 }
 
 .text-green {
@@ -115,4 +131,8 @@
     0px 10px 8px rgba(0, 0, 0, 0.5),
     inset 0px 4px 8px rgba(255, 255, 255, 0.5);
   transition: bottom 0.2s, box-shadow 0.2s;
+}
+
+.ThankYouPage {
+  background: #c4c4c4;
 }
