@@ -57,15 +57,22 @@
 
 .NavBar-logo {
   vertical-align: middle;
-  padding: 0.9rem 2rem;
+  padding: 0.3rem 0;
+  border: 3px solid #171717;
+  margin: 0.5rem 1.5rem;
   font-size: 48px;
   font-family: Army, sans-serif;
 }
 
+.NavBar-logo:hover {
+  border-bottom: 3px solid #C3C71E;
+}
+
 .NavBar-notice {
   text-transform: uppercase;
-  color: #C4C4C4;
-  font-size: 22px;
+  color: #aabbaa;
+  font-family: Lato, sans-serif;
+  font-size: 18px;
 }
 
 .App-header {
