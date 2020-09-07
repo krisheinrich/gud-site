@@ -102,7 +102,7 @@
   padding: 0.3rem 0;
   border: 3px solid #171717;
   margin: 0.5rem 1.5rem;
-  font-size: 40px;
+  font-size: 36px;
   font-family: 'Army', sans-serif;
 }
 
@@ -112,6 +112,12 @@
 
 .NavBar-notice {
   display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .NavBar-logo {
+    font-size: 40px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -163,8 +169,10 @@
   position: absolute;
   color: #eee;
   margin: 0 3vw;
-  margin-top: 30vh;
   width: 300px;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .hero-section .hero-text {
@@ -172,7 +180,7 @@
   text-align: center;
   font-family: 'Bai Jamjuree', sans-serif;
   color: #C4C4C4;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   line-height: 38px;
   font-size: 30px;
   font-style: italic;
@@ -188,7 +196,7 @@
     0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 0px 4px 8px rgba(255, 255, 255, 0.5);
   border-radius: 6px;
-  padding: 0.8rem 1.5rem;
+  padding: 0.6rem 1.5rem;
   font-family: Lato, sans-serif;
   font-size: 1.2rem;
   font-weight: normal;
@@ -207,6 +215,17 @@
     0px 10px 8px rgba(0, 0, 0, 0.5),
     inset 0px 4px 8px rgba(255, 255, 255, 0.5);
   transition: bottom 0.2s, box-shadow 0.2s;
+}
+
+@media screen and (min-width: 600px) {
+  .hero-section {
+    top: 35%;
+    left: 0;
+    transform: none;
+  }
+  .hero-section .hero-text {
+    margin-bottom: 24px;
+  }
 }
 
 @media screen and (min-width: 768px) {
