@@ -8,6 +8,7 @@ export default function MailChimpModal({ show, onClose }) {
         <form action="https://dev.us17.list-manage.com/subscribe/post?u=98ea3afa12eb28e1ad4815389&amp;id=abd17d478b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" noValidate>
           <div id="mc_embed_signup_scroll">
             <h2>Subscribe to the Ground Up Dev Newsletter for announcements, exclusive offers and more! </h2>
+            <p className="early-access">Early Access members get special insider benefits, including FREE access to all course materials and resources!</p>
             <div className="mc-field-group">
               <label htmlFor="mce-FNAME">First Name </label>
               <input type="text" defaultValue="" name="FNAME" className="" id="mce-FNAME" />
