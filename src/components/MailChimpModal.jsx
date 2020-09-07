@@ -25,7 +25,7 @@ export default function MailChimpModal({ show, onClose }) {
               <input type="text" name="b_98ea3afa12eb28e1ad4815389_abd17d478b" tabIndex="-1" defaultValue=""/>
             </div>
             <div className="clear">
-              <input type="submit" defaultValue="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button"/>
+              <input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" className="button"/>
             </div>
           </div>
         </form>
