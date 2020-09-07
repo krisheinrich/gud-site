@@ -78,6 +78,7 @@
 .NavBar {
   background: #171717;
   flex: 0 0;
+  user-select: none;
 }
 
 .NavBar-logo {
@@ -167,4 +168,35 @@
 
 .ThankYouPage {
   background: #c4c4c4;
+}
+
+/* Mailchimp embedded form styles */
+
+#mc_embed_signup h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+#mc_embed_signup .early-access {
+  font-size: 1.1rem;
+  font-style: italic;
+  text-align: center;
+  padding: 0 0.4rem;
+  margin: 1.2rem 0;
+  line-height: 1.4;
+}
+
+#mc_embed_signup .mc-field-group label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+#mc_embed_signup #mc-embedded-subscribe {
+  display: block;
+  font-size: 1rem;
+  margin: 10px auto;
+  padding: 6px 30px;
+  height: auto;
 }
