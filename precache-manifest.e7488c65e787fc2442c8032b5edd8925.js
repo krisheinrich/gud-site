@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1807a86d73d0e7af1d7ba5ee1f2187f",
+    "revision": "af317666d37bf9d7a3b4381410f54eac",
     "url": "/index.html"
   },
   {
-    "revision": "fcab5360f4265b478b59",
-    "url": "/static/css/main.3f6e8630.chunk.css"
+    "revision": "fb6f21eb5243cb974a12",
+    "url": "/static/css/main.08049123.chunk.css"
   },
   {
     "revision": "867c95f64639da73cbbd",
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.2b4d4969.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fcab5360f4265b478b59",
+    "revision": "fb6f21eb5243cb974a12",
     "url": "/static/js/main.4271ffaf.chunk.js"
   },
   {
     "revision": "33b26c4bdba3077635cd",
     "url": "/static/js/runtime-main.4ce71edf.js"
+  },
+  {
+    "revision": "1224eeacc557ac356201d24fd69fc8f0",
+    "url": "/static/media/Army.1224eeac.otf"
   },
   {
     "revision": "444181a7a579c5ad418dbacacb397416",
