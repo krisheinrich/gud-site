@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,600;0,700;1,700&family=Lato:wght@400;700&display=swap');
 @font-face {
   font-family: 'Army';
-  src: local('Army'), url(./fonts/Army.otf) format('otf');
+  src: local('Army'), url(./fonts/Army.otf) format('opentype');
 }
 
 /* Helpers */
@@ -220,11 +220,8 @@
 @media screen and (min-width: 600px) {
   .hero-section {
     top: 35%;
-    left: 0;
+    left: 4%;
     transform: none;
-  }
-  .hero-section .hero-text {
-    margin-bottom: 24px;
   }
 }
 
@@ -236,6 +233,7 @@
   .hero-section .hero-text {
     line-height: 52px;
     font-size: 42px;
+    margin-bottom: 24px;
   }
 
   .hero-section .cta {
