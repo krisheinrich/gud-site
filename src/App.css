@@ -75,8 +75,14 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 1rem 3rem;
+  padding: 1rem 1.2rem;
   background: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .Modal-content {
+    padding: 1rem 3rem;
+  }
 }
 
 .NavBar {
@@ -95,8 +101,8 @@
   padding: 0.3rem 0;
   border: 3px solid #171717;
   margin: 0.5rem 1.5rem;
-  font-size: 48px;
-  font-family: 'Army', sans-serif;
+  font-size: 40px;
+  /* font-family: 'Army', sans-serif; */
 }
 
 .NavBar-logo:hover {
@@ -110,6 +116,10 @@
 @media screen and (min-width: 768px) {
   .NavBar .row {
     justify-content: flex-start;
+  }
+
+  .NavBar-logo {
+    font-size: 48px;
   }
 
   .NavBar-notice {
@@ -229,18 +239,27 @@
 /* Mailchimp embedded form styles */
 
 #mc_embed_signup h2 {
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   text-align: center;
   font-weight: 500;
 }
 
 #mc_embed_signup .early-access {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-style: italic;
   text-align: center;
   padding: 0 0.4rem;
   margin: 1.2rem 0;
   line-height: 1.4;
+}
+
+@media screen and (min-width: 768px) {
+  #mc_embed_signup h2 {
+    font-size: 1.8rem;
+  }
+  #mc_embed_signup .early-access {
+    font-size: 1.1rem;
+  }
 }
 
 #mc_embed_signup .mc-field-group label {
