@@ -12,7 +12,7 @@ export default function LandingPage({ children }) {
           <div className="hero-section col">
             <p className="hero-text">The fastest path to a career in web development</p>
             <button className="cta" onClick={() => setShowModal(true)}>
-              Sign Up for Early Access &gt;
+              Sign Up <span className="extra-text">for Early Access</span> &gt;
             </button>
           </div>
         </div>

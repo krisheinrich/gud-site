@@ -46,7 +46,7 @@
 /* Components */
 
 .MainLayout {
-  min-height: 600px;
+  min-height: 400px;
   height: 100vh;
 }
 
@@ -78,7 +78,12 @@
 .NavBar {
   background: #171717;
   flex: 0 0;
+  display: flex;
   user-select: none;
+}
+
+.NavBar .row {
+  justify-content: center;
 }
 
 .NavBar-logo {
@@ -95,10 +100,21 @@
 }
 
 .NavBar-notice {
-  text-transform: uppercase;
-  color: #aabbaa;
-  font-family: Lato, sans-serif;
-  font-size: 18px;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .NavBar .row {
+    justify-content: flex-start;
+  }
+
+  .NavBar-notice {
+    display: block;
+    text-transform: uppercase;
+    color: #aabbaa;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+  }
 }
 
 .LandingPage-header {
@@ -108,7 +124,15 @@
     linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),
     url(./images/hacker-resized.jpg) no-repeat center center scroll;
   background-size: cover;
+  background-position: 65% 50%;
   flex: 1;
+  min-height: 400px;
+}
+
+@media screen and (min-width: 768px) {
+  .LandingPage-header {
+    background-position: center center;
+  }
 }
 
 .darken-cover {
@@ -124,8 +148,8 @@
   position: absolute;
   color: #eee;
   margin: 0 3vw;
-  margin-top: 27vh;
-  width: 420px;
+  margin-top: 30vh;
+  width: 300px;
 }
 
 .hero-section .hero-text {
@@ -133,15 +157,15 @@
   text-align: center;
   font-family: 'Bai Jamjuree', sans-serif;
   color: #C4C4C4;
-  line-height: 52px;
-  font-size: 42px;
+  margin-bottom: 24px;
+  line-height: 38px;
+  font-size: 30px;
   font-style: italic;
   font-weight: bold;
   text-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
 }
 
 .hero-section .cta {
-  margin-top: 16px;
   position: relative;
   bottom: 0;
   background: #C3C71E;
@@ -149,13 +173,17 @@
     0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 0px 4px 8px rgba(255, 255, 255, 0.5);
   border-radius: 6px;
-  padding: 1rem 2rem;
+  padding: 0.8rem 1.5rem;
   font-family: Lato, sans-serif;
-  font-size: 22px;
+  font-size: 1.2rem;
   font-weight: normal;
   line-height: 26px;
   text-align: center;
   align-self: center;
+}
+
+.hero-section .cta .extra-text {
+  display: none;
 }
 
 .hero-section .cta:hover {
@@ -164,6 +192,26 @@
     0px 10px 8px rgba(0, 0, 0, 0.5),
     inset 0px 4px 8px rgba(255, 255, 255, 0.5);
   transition: bottom 0.2s, box-shadow 0.2s;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-section {
+    width: 420px;
+  }
+
+  .hero-section .hero-text {
+    line-height: 52px;
+    font-size: 42px;
+  }
+
+  .hero-section .cta {
+    font-size: 1.35rem;
+    padding: 1rem 2rem;
+  }
+
+  .hero-section .cta .extra-text {
+    display: inline;
+  }
 }
 
 .ThankYouPage {
