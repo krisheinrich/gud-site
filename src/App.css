@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,600;0,700;1,700&family=Lato:wght@400;700&display=swap');
+@font-face {
+  font-family: 'Army';
+  src: local('Army'), url(./fonts/Army.otf) format('otf');
+}
 
 /* Helpers */
 
@@ -92,7 +96,7 @@
   border: 3px solid #171717;
   margin: 0.5rem 1.5rem;
   font-size: 48px;
-  font-family: Army, sans-serif;
+  font-family: 'Army', sans-serif;
 }
 
 .NavBar-logo:hover {
@@ -216,6 +220,10 @@
 
 .ThankYouPage {
   background: #c4c4c4;
+}
+
+.ThankYouPage h1 {
+  text-align: center;
 }
 
 /* Mailchimp embedded form styles */
